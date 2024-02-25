@@ -1,6 +1,6 @@
 QT       += core gui
 
-greaterThan(QT_MAJOR_VERSION, 4): QT += widgets network
+greaterThan(QT_MAJOR_VERSION, 4): QT += widgets network multimedia
 
 CONFIG += c++17
 
@@ -10,10 +10,12 @@ CONFIG += c++17
 
 SOURCES += \
     main.cpp \
-    mainwindow.cpp
+    mainwindow.cpp \
+    streamplayer.cpp
 
 HEADERS += \
-    mainwindow.h
+    mainwindow.h \
+    streamplayer.h
 
 FORMS += \
     mainwindow.ui
